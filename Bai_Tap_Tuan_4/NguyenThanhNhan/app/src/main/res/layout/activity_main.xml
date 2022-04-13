@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#413c85">
+
+
+    <TextView
+        android:id="@+id/Text_fb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Facebook"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif" />
+
+    <EditText
+        android:id="@+id/btn_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:height="50dp"
+        android:paddingLeft="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border_fb"/>
+
+
+    <EditText
+        android:id="@+id/btn_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/border_fb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:height="50dp"
+        android:paddingLeft="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="317dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C0C0C0"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/border_fb"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentBottom="true"
+       android:layout_marginLeft="130dp"
+        android:layout_marginBottom="140dp" />
+
+</RelativeLayout>
